@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Emoji Factory In Seconds">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>EMOJI FACTORY ANIMATION</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>WELCOME !</h1>
+        <p>Make an Emoji in 6 seconds !<br>
+            <h2><b>Click on the emoji wanted :</b></h2></p>
+    </header>
+
+    <main class="makeEmoji">
+        <section class="mood">
+            <button type="button" class="btn btn-outline-primary grinning">Grinning Face</button>
+            <button type="button" class="btn btn-outline-primary neutral">Neutral Face</button>
+            <button type="button" class="btn btn-outline-primary rolling">Face With Rolling Eyes</button>
+            <button type="button" class="btn btn-outline-primary squinting">Squinting Face With Tongue</button>
+            <button type="button" class="btn btn-outline-primary tongue">Face With Tongue</button>
+        </section>
+        
+        <section class="maker">
+            <img class="machine" src="machine.png" alt="machine">
+            <div class="ecran_face">
+                <img class="ecran" src="ecran_face.png" alt="screen_face_maker">
+                <img class="face" src="emoji_face.png" alt="face" width="50">
+            </div>
+            <div class="tapisRoulant">
+                <img class="tapis" src="tapis.png" alt="tapis" width="180">
+                <img class="roue" src="roue.jpg" width="20">
+            </div>
+
+            <section>
+                <img class="ecran" src="ecran_eyes.png" alt="screen_eyes_maker">
+                <p class="eyes1"><img class="eyeGrinning" src="grinning_eyes.png" alt="eye_grinning" width="50"></p>
+                <p class="eyes2"><img class="eyeNeutral" src="neutral_eyes.png" alt="eye_neutral" width="50"></p>
+                <p class="eyes3"><img class="eyeRolling" src="rolling_eyes.png" alt="eye_tongue" width="50"></p>
+                <p class="eyes4"><img class="eyeSquinting" src="squiting_eyes.png" alt="eye_squinting" width="50"></p>
+                <p class="eyes5"><img class="eyeTongue" src="tongue_eyes.png" alt="eye_tongue" width="50"></p>
+            </section>
+
+            <div class="tapisRoulant">
+                <img class="tapis" src="tapis.png" alt="tapis" width="180">
+                <img class="roue" src="roue.jpg" width="20">
+            </div>
+            <div class="tapisRoulant">
+                <img class="tapis" src="tapis.png" alt="tapis" width="180">
+                <img class="roue" src="roue.jpg" width="20">
+            </div>
+
+            <section>
+                <img class="ecran" src="ecran_mouth.png" alt="screen_mouth_maker">
+                <p class="face1"><img class="grinningFace" src="grinning.png" alt="grinning_face" width="50"></p>
+                <p class="face2"><img class="neutralFace" src="neutral.png" alt="neutral_face" width="50"></p>
+                <p class="face3"><img class="rollingFace" src="rolling.png" alt="rolling_face" width="50"></p>
+                <p class="face4"><img class="squintingFace" src="squiting.png" alt="squinting_face" width="50"></p>
+                <p class="face5"><img class="tongueFace" src="tongue.png" alt="tongue_face" width="50"></p>
+            </section>
+            <div class="tapisRoulant">
+                <img class="tapis" src="tapis.png" alt="tapis" width="180">
+                <img class="roue" src="roue.jpg" width="20">
+            </div>
+            <div class="tapisRoulant">
+                <img class="tapis" src="tapis.png" alt="tapis" width="180">
+                <img class="roue" src="roue.jpg" width="20">
+            </div>
+        </section>
+    </main>
+    <script src="gsap_animations.js"></script>
+</body>
+</html>

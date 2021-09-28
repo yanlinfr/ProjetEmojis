@@ -1,0 +1,118 @@
+body {
+  background-image: url("fete.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  font-family: Helvetica, sans-serif;
+}
+header {
+  margin-top: 3%;
+  padding: 3%;
+  text-align: center;
+  background-color: rgba(245, 245, 245, 0.7);
+}
+/* #top {
+  border: 1px solid black;
+  background-color: rgba(255, 245, 220, 0.6);
+} */
+
+h1 {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+header h2,
+header p {
+  animation-name: fade;
+  animation-duration: 2s;
+  margin: 0;
+  color: blue;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.mood {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin: 0 25%;
+}
+
+button {
+  /* margin-top: 15px; */
+  /* border: black 2px solid; */
+  cursor: pointer;
+}
+
+.makeEmoji {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(245, 245, 245, 0.7);
+}
+
+.maker {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+  z-index: 1;
+}
+.ecran {
+  margin-top: 65%;
+}
+
+.tapis {
+  margin-top: 118%;
+}
+
+.ecran_face {
+  position: relative;
+}
+
+.face {
+  position: absolute;
+  margin-top: 102%;
+  margin-left: -70%;
+  z-index: -1;
+}
+
+.eyes1,
+.eyes2,
+.eyes3,
+.eyes4,
+.eyes5,
+.face1,
+.face2,
+.face3,
+.face4,
+.face5 {
+  position: absolute;
+  margin-top: -4.5%;
+  margin-left: 1%;
+  z-index: -1;
+}
+
+.roue {
+  position: absolute;
+  margin-top: 11.6%;
+  /* margin-left: 1%; */
+  /* z-index: 2; */
+  margin-left: -6.7%;
+}
